@@ -1,0 +1,9 @@
+#!/usr/bin/env python3.7
+
+
+name = input("What is your name? ")
+birth_date = input("What is your birthdate? ")
+age = int(input("How old are you? "))
+
+print(f"{name} was born on {birth_date}")
+print(f"Half of your age is {age / 2}")
